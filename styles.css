@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    width: auto;
+    padding: 10px;
+}
+
+.main {
+    width: auto;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+#recipe_list {
+    text-align: center;
+}
+
+#recipe_list li {
+    display: inline-block;
+    margin: 10px 10px 0;
+    text-align: center;
+    font-size: large;
+}
+
+.main #title {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(155, 76, 57);
+}
+
+.main img {
+    border: 2px solid rgb(155, 76, 57);
+}
+
+div.centered div {
+    width: fit-content;
+    height: auto;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+div.centered > * {
+    margin-bottom: 20px;
+}
+
+.home {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.main > * {
+    margin-bottom: 20px;
+}
+
+.separated,
+.separated > h2,
+.separated > p {
+    /* separate elements inside these parents */
+    margin-bottom: 10px;
+    text-align: justify;
+}
